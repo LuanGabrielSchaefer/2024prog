@@ -26,6 +26,12 @@
      margin: 0 auto;
   }
 
+   .titulo-principal{
+    text-alin: center;
+    width: 100%;
+    font-size: 32px;
+   }
+   
   .titulo-principal span{
      color: var(--verde);
   }
@@ -52,6 +58,17 @@
 
   .botoes{
     display: block;
+  }
+
+  .ativo{
+    background-color: var(--botao-ativo);
+    border-bottom: 4x solid var(--verde);
+  }
+
+  .abas-textos{
+    background-color: var(--texto-fundo);
+    padding: 40px;
+    border-radius: 0 0 40px 40px;
   }
   @media screen and (min-width: 768px) {
     .botoes{
