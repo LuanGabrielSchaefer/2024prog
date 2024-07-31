@@ -50,4 +50,14 @@ function comecaCronometro(){
     atualizaCronometro();
     setInterval(atualizaCronometro,1000);
 }
-//comecaCronometro();
+
+// Mensagem de boas-vindas ao clicar no botão document.addEventListener('DOMContentLoaded; () =>{
+    const button= document.querySelector('button');
+    button.addEventListener('click;()=>{
+    alert('Estamos animados para começar o ano com voçês!');
+
+    });
+
+    //Contador de dias para o início das aulas
+
+    
